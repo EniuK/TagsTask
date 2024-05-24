@@ -1,0 +1,16 @@
+.maincard-options-map-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px;
+}
+
+.maincard-options-map-span {
+    padding: 7px;
+}
+
+.maincard-footer-map-div {
+    width: 40px;
+    height: 15px;
+}
+
