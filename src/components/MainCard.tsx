@@ -21,6 +21,7 @@ const MainCard: React.FC = () => {
         <div className={"maincard-searchbar"}>
           <MainCardSearchBar focusHandler={setIsSearchbarFocused} />
         </div>
+        <div style={{ borderTop: "1px solid #bbb", margin: "10px" }} />
         {isSearchbarFocused ? (
           <TagList />
         ) : (
@@ -28,9 +29,13 @@ const MainCard: React.FC = () => {
             <div className={"maincard-tags"}>
               <MainCardTags tagsArray={items} />
             </div>
+            <div style={{ borderTop: "1px solid #bbb", margin: "10px" }} />
+
             <div className={"maincard-options"}>
               <MainCardOptions />
             </div>
+            <div style={{ borderTop: "1px solid #bbb", margin: "10px" }} />
+
             <div className={"maincard-footer"}>
               <TagStrenght tagsStrength={items.length} />
             </div>
