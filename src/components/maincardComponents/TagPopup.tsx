@@ -44,6 +44,7 @@ const TagList: React.FC = () => {
             flexDirection: "row",
             justifyContent: "space-between",
             alignItems: "center",
+            margin: "10px",
           }}
         >
           <div>
@@ -62,6 +63,7 @@ const TagList: React.FC = () => {
       <div>
         <button
           onClick={handleAddSelectedTags}
+          disabled={tags === actualState ? true : false}
           style={{ textAlign: "center", width: "100%", marginTop: "10px" }}
         >
           Zapisz

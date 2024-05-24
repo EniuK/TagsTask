@@ -12,8 +12,6 @@ const MainCard: React.FC = () => {
   const { items } = useMyContext();
   const [isSearchbarFocused, setIsSearchbarFocused] = useState<boolean>(false);
 
-  console.log(isSearchbarFocused);
-
   return (
     <div className={"maincard-wrapper"}>
       <div className={"maincard-content"}>
