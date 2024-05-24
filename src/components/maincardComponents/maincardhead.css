@@ -1,0 +1,9 @@
+.maincard-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+
+}
