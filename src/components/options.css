@@ -1,0 +1,14 @@
+.options-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border: 1px solid lightgray ;
+    border-radius: 10px;
+}
+
+.options-map-img-container {
+    margin: 7px;
+}
+
